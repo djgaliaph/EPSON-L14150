@@ -1,0 +1,12 @@
+[ENAppInfo]
+ENFid=0x4e656f6e
+ProductName="FAX Utility"
+ProductID=0x000B
+Installer=".\setup.exe"
+ENFVersion="4.04"
+Reboot=1
+InstallOption=/Que:"%PrinterQueueName%" /FD:"%FaxUniqueName%" %FaxSetupInfo%
+UnsupportedOS_x86=1FF
+UnsupportedOS_x64=1FF
+UnsupportedOS_IA64=*
+AppVersion = "2.6.4"

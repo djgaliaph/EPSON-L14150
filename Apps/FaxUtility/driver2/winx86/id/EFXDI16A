@@ -1,0 +1,14 @@
+*% EPSON PC-FAX Driver Module Description File
+*% Copyright(C) Seiko Epson Corporation 2009-2015. All rights reserved.
+*% Permission is granted for redistribution of this file as
+*% long as this copyright notice is intact and the contents
+*% of the file is not altered in any way from its original form.
+*% End of Copyright statement
+
+[DriverInfo]
+Version=2.00.00
+CURVER=2.60.00
+Language=0x0021
+
+[SupportInfo]
+Function=0x00000002

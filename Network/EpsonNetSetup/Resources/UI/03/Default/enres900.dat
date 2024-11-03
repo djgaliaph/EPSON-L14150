@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UIControl xml:lang="en" xmlns="http://www.epson.com/EpsonNet/Resource/Common/UIInfo/1-0">
+
+  <!-- Main Dialog -->
+  <layout id="UICONTROL_MAIN_DIALOG" left="0" top="0" width="907" height="649"/>
+  <layout id="UICONTROL_MAIN_DIALOG_BUTTON_CANCEL" left="210" top="600" width="150" height="30"/>
+  <layout id="UICONTROL_MAIN_DIALOG_BUTTON_CHANGE" left="380" top="600" width="150" height="30"/>
+  <layout id="UICONTROL_MAIN_DIALOG_BUTTON_BACK" left="550" top="600" width="150" height="30"/>
+  <layout id="UICONTROL_MAIN_DIALOG_BUTTON_NEXT" left="720" top="600" width="150" height="30"/>
+  <layout id="UICONTROL_MAIN_DIALOG_BUTTON_HELP" left="890" top="50" width="20" height="20"/>
+  <layout id="UICONTROL_MAIN_DIALOG_TITLE" left="200" top="10" width="690" height="40" fontsize="20" color_r="16" color_g="33" color_b="139"/>
+
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP0" left="0" top="0" width="0" height="0" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP1" left="0" top="0" width="0" height="0" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP2" left="0" top="0" width="0" height="0" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP3" left="0" top="0" width="0" height="0" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP4" left="0" top="0" width="0" height="0" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_IMAGE_STEP" left="0" top="0" hidecontrol="true"/>
+
+  <!-- Subpage Base -->
+  <layout id="UICONTROL_SUBPAGEBASE" left="180" top="60" width="720" height="520"/>
+  <layout id="UICONTROL_SUBPAGEBASE_MODEL_MAC" left="0" top="0" width="675" height="25" fontsize="14" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGEBASE_UNDERBAR_TOP" left="0" top="5" width="725" height="2" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGEBASE_UNDERBAR_BOTTOM" left="0" top="33" width="725" height="2" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGEBASE_ANIMATION_PROGRESS" left="380" top="230" width="250" height="20"/>
+
+  <!-- SubPage [Cableless Opening] -->
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_OPENING_LABEL" left="12" top="18" width="675" height="132"/>
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_OPENING_ANIMATION" left="190" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Cableless Progress] --><!-- ishida -->
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_PROGRESS_LABEL" left="12" top="55" width="675" height="30" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_PROGRESS_ANIMATION" left="70" top="430" width="580" height="20" hidecontrol="false"/>
+
+  <layout id="UICONTROL_MAIN_DIALOG_IMAGE" left="30" top="20" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_HTML" left="30" top="20" hidecontrol="false"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP0_2" left="60" top="240" width="600" height="40" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP1_2" left="60" top="280" width="600" height="40" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP2_2" left="60" top="320" width="600" height="40" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP3_2" left="60" top="360" width="600" height="40" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_LABEL_STEP4_2" left="60" top="400" width="600" height="40" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_IMAGE_STEP_2" left="40" top="250" hidecontrol="true"/>
+  <layout id="UICONTROL_MAIN_DIALOG_NOW_SETTING" left="60" top="210" width="600" height="40" hidecontrol="false"/>
+
+  <!-- SubPage [Cableless Operation] -->
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_OPERATION_LABEL" left="12" top="20" width="685" height="110"/>
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_OPERATION_BROWSER" left="14" top="130" width="680" height="350"/>
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_OPERATION_PROGRESS" left="14" top="550" width="680" height="21"/>
+
+  <!-- SubPage [Cableless Sending] -->
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_SENDING_LABEL" left="12" top="20" width="675" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_CABLELESS_SENDING_ANIMATION" left="170" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Complate] -->
+  <layout id="UICONTROL_SUBPAGE_COMPLATE_LABEL" left="12" top="55" width="675" height="100"/>
+  <layout id="UICONTROL_SUBPAGE_COMPLATE_GROUP_TEST_PRINTING" left="14" top="125" width="668" height="213"/>
+  <layout id="UICONTROL_SUBPAGE_COMPLATE_LABEL_TEST_PRINTING" left="30" top="150" width="508" height="123"/>
+  <layout id="UICONTROL_SUBPAGE_COMPLATE_BUTTON_TEST_PRINTING" left="30" top="278" width="263" height="48"/>
+
+  <!-- SubPage [Confirm] -->
+  <layout id="UICONTROL_SUBPAGE_CONFIRM_LABEL" left="12" top="62" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_CONFIRM_LIST" left="12" top="121" width="675" height="230"/>
+
+  <!-- SubPage [Connect Guide Second PC] -->
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_SECONDPC_LABEL" left="12" top="30" width="675" height="250"/>
+
+  <!-- SubPage [Connect Guide USB] -->
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_USB_LABEL" left="12" top="30" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_USB_LABEL_DETAIL" left="12" top="88" width="675" height="112"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_USB_IMAGE_ICON" left="160" top="200"/>
+
+  <!-- SubPage [Connect Guide Wired] -->
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_WIRED_LABEL" left="12" top="30" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_WIRED_LABEL_DETAIL" left="12" top="88" width="675" height="112"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_WIRED_IMAGE_ICON" left="160" top="200"/>
+
+  <!-- SubPage [Connect Guide Wireless] -->
+  <layout id="UICONTROL_SUBPAGE_CONNECTGUIDE_WIRELESS_LABEL" left="12" top="30" width="675" height="250"/>
+
+  <!-- SubPage [Connection Opening] -->
+  <layout id="UICONTROL_SUBPAGE_CONNECTION_OPENING_LABEL" left="12" top="50" width="675" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTION_OPENING_LABEL2" left="12" top="90" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_CONNECTION_OPENING_LIST" left="12" top="110" width="675" height="230"/>
+
+  <!-- SubPage [Deviceless TCPIP] -->
+  <layout id="UICONTROL_SUBPAGE_DEVICELESS_TCPIP_LABEL" left="12" top="70" width="675" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_DEVICELESS_TCPIP_LABEL_IP" left="33" top="225" width="504" height="18"/>
+  <layout id="UICONTROL_SUBPAGE_DEVICELESS_TCPIP_IPADDR" left="33" top="248" width="215" height="23"/>
+
+  <!-- SubPage [Diagnosis] -->
+  <layout id="UICONTROL_SUBPAGE_DIAGNOSIS_LABEL" left="12" top="40" width="675" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_DIAGNOSIS_LABEL2" left="12" top="80" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_DIAGNOSIS_LIST" left="12" top="100" width="675" height="120"/>
+  <layout id="UICONTROL_SUBPAGE_DIAGNOSIS_LABEL3" left="12" top="230" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_DIAGNOSIS_EDIT" left="12" top="250" width="675" height="120"/>
+
+  <!-- SubPage [Driver Opening] -->
+  <layout id="UICONTROL_SUBPAGE_DRIVER_OPENING_LABEL" left="12" top="50" width="675" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_DRIVER_OPENING_LABEL2" left="12" top="90" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_DRIVER_OPENING_LIST" left="12" top="110" width="675" height="230"/>
+
+  <!-- SubPage [Failed] -->
+  <layout id="UICONTROL_SUBPAGE_FAILED_LABEL" left="12" top="15" width="690" height="210"/>
+  <layout id="UICONTROL_SUBPAGE_FAILED_LABEL2" left="26" top="230" width="690" height="35"/>
+  <layout id="UICONTROL_SUBPAGE_FAILED_EDIT" left="26" top="265" width="690" height="250"/>
+
+  <!-- SubPage [Firewall] -->
+  <layout id="UICONTROL_SUBPAGE_FIREWALL_LABEL" left="12" top="11" width="690" height="180"/>
+  <layout id="UICONTROL_SUBPAGE_FIREWALL_LABEL_URL" left="12" top="200" width="690" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_FIREWALL_CHECK" left="12" top="240" width="690" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_FIREWALL_IMAGE" left="160" top="300"/>
+
+  <!-- SubPage [Printer List] -->
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_LABEL_LIST" left="30" top="190" width="660" height="60"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_LIST" left="30" top="293" width="660" height="150"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_BUTTON_REPROBE" left="30" top="260" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_GROUP" left="10" top="261" width="680" height="140"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_LABEL_ACTION" left="20" top="281" width="530" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_LIST_BUTTON_ACTION" left="20" top="363" width="350" height="24"/>
+
+  <!-- SubPage [Polling] -->
+  <layout id="UICONTROL_SUBPAGE_POLLING_LABEL" left="12" top="50" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_POLLING_ANIMATION" left="170" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Printer Name] -->
+  <layout id="UICONTROL_SUBPAGE_PRINTER_NAME_LABEL" left="12" top="75" width="675" height="18"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_NAME_EDIT" left="12" top="98" width="478" height="26"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTER_NAME_CHECK" left="12" top="135" width="400" height="20"/>
+
+  <!-- SubPage [PrintScan] -->
+  <layout id="UICONTROL_SUBPAGE_PRINTSCAN_LABEL" left="12" top="50" width="675" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_PRINTSCAN_ANIMATION" left="170" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Printer Probe] -->
+  <layout id="UICONTROL_SUBPAGE_PROBE_LABEL1" left="12" top="25" width="675" height="36"/>
+  <layout id="UICONTROL_SUBPAGE_PROBE_LABEL2" left="12" top="80" width="675" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_PROBE_ANIMATION" left="170" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Select Connection Type] -->
+  <layout id="UICONTROL_SUBPAGE_SELECT_CONNECTION_TYPE_LABEL" left="12" top="70" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_CONNECTION_TYPE_RADIO_ITEM" left="15" top="140" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_CONNECTION_TYPE_LABEL_ITEM" left="33" top="165" width="655" height="54"/>
+
+  <!-- SubPage [Select Wireless Setup Method] -->
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD_LABEL" left="12" top="50" width="675" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD1_RADIO_ITEM" left="15" top="120" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD1_LABEL_ITEM" left="33" top="145" width="655" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD2_RADIO_ITEM" left="15" top="220" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD2_LABEL_ITEM" left="33" top="245" width="655" height="54"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD3_RADIO_ITEM" left="15" top="320" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SELECT_WIRELESSSETUPMETHOD3_LABEL_ITEM" left="33" top="345" width="655" height="54"/>
+
+  <!-- SubPage [Sending] -->
+  <layout id="UICONTROL_SUBPAGE_SENDING_LABEL" left="12" top="55" width="675" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_SENDING_ANIMATION" left="170" top="150" width="320" height="180"/>
+
+  <!-- SubPage [Setting Menu] -->
+  <layout id="UICONTROL_SUBPAGE_SETTING_MENU_RADIO_ALL" left="20" top="80" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SETTING_MENU_LABEL_ALL" left="43" top="105" width="645" height="72"/>
+  <layout id="UICONTROL_SUBPAGE_SETTING_MENU_RADIO_PCSETTING" left="20" top="200" width="675" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_SETTING_MENU_LABEL_PCSETTING" left="43" top="225" width="645" height="72"/>
+
+  <!-- SubPage [Storage Attribute] -->
+  <layout id="UICONTROL_SUBPAGE_STORAGE_ATTR_LABEL" left="30" top="190" width="660" height="90" fontsize="12"/>
+  <layout id="UICONTROL_SUBPAGE_STORAGE_ATTR_RADIO_READWRITE" left="30" top="290" width="660" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_STORAGE_ATTR_LABEL_READWRITE" left="50" top="320" width="640" height="80" fontsize="12"/>
+  <layout id="UICONTROL_SUBPAGE_STORAGE_ATTR_RADIO_READONLY" left="30" top="410" width="660" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_STORAGE_ATTR_LABEL_READONLY" left="50" top="440" width="640" height="80" fontsize="12"/>
+
+  <!-- SubPage [Switch Connection Style] -->
+  <layout id="UICONTROL_SUBPAGE_SWITCH_CONNECTION_STYLE_LABEL" left="12" top="55" width="675" height="75"/>
+  <layout id="UICONTROL_SUBPAGE_SWITCH_CONNECTION_STYLE_IMAGE" left="160" top="200"/>
+
+  <!-- SubPage [TCP/IP] -->
+  <layout id="UICONTROL_SUBPAGE_TCPIP_LABEL" left="30" top="190" width="660" height="80"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_RADIO_AUTO" left="30" top="290" width="520" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_RADIO_MANUAL" left="30" top="340" width="520" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_LABEL_IP" left="70" top="380" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_IPADDR_IP" left="280" top="380" width="220" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_LABEL_SUBNET" left="70" top="420" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_IPADDR_SUBNET" left="280" top="420" width="220" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_LABEL_GATEWAY" left="70" top="460" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_IPADDR_GATEWAY" left="280" top="460" width="220" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_TCPIP_BUTTON_CHANGE" left="540" top="460" width="150" height="30"/>
+
+  <!-- SubPage [Wireless Security Auto] -->
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_AUTO_LABEL" left="30" top="190" width="660" height="40"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_AUTO_LABEL2" left="110" top="260" width="590" height="200"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_AUTO_BUTTON_HELP" left="50" top="260" width="50" height="50"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_AUTO_EDIT" left="70" top="470" width="580" height="30"/>
+
+  <!-- SubPage [Wireless Security WEP] -->
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WEP_LABEL" left="30" top="190" width="660" height="40"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WEP_LABEL2" left="110" top="260" width="590" height="200"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WEP_BUTTON_HELP" left="50" top="260" width="50" height="50"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WEP_EDIT" left="70" top="470" width="580" height="30"/>
+
+  <!-- SubPage [Wireless Security WPA] -->
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WPA_LABEL" left="30" top="190" width="660" height="40"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WPA_LABEL2" left="110" top="260" width="590" height="200"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WPA_BUTTON_HELP" left="50" top="260" width="50" height="50"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SECURITY_WPA_EDIT" left="70" top="470" width="580" height="30"/>
+
+  <!-- SubPage [Wireless SSID] -->
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LABEL" left="30" top="190" width="660" height="60"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LABEL_SCAN" left="12" top="90" width="188" height="18" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LABEL_VIEW_MODE" left="320" top="260" width="150" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_COMBO_VIEW_MODE" left="490" top="260" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LIST" left="30" top="293" width="660" height="150"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_BUTTON_REFRESH" left="30" top="260" width="200" height="30"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_GROUP_MANUAL" left="12" top="1000" width="673" height="100" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_CHECK_MANUAL" left="30" top="450" width="230" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LABEL_MANUAL" left="60" top="470" width="100" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_EDIT_MANUAL" left="180" top="470" width="510" height="20" fontsize="10"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_LABEL_PASSWD" left="60" top="500" width="230" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_RADIO_EXIST" left="370" top="500" width="110" height="20"/>
+  <layout id="UICONTROL_SUBPAGE_WIRELESS_SSID_RADIO_NONE" left="520" top="500" width="110" height="20"/>
+	
+  <!-- SubPage [Step Info] -->
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO" left="0" top="0" width="180" height="649" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_BEGIN" left="10" top="10" width="160" height="50" hidecontrol="true"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_EULA" left="30" top="95" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_SYSTEMCHECK" left="30" top="165" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_INSTALL" left="30" top="235" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_CONNECTION" left="30" top="305" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_ADDINSTALL" left="30" top="375" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_FINISH" left="30" top="445" width="130" height="40" hidecontrol="false"/>
+  <layout id="UICONTROL_SUBPAGE_STEP_INFO_END" left="10" top="590" width="160" height="50" hidecontrol="true"/>
+</UIControl>

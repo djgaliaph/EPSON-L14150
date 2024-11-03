@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ManualInfo>
+  <Version>1.30</Version>
+  <DeviceID>L14150 Series</DeviceID>
+  <DriverName>EPSON L14150 Series</DriverName>
+  <DefalutLanguage>EN</DefalutLanguage>
+  <Languages>EN,RU,UK,KK,SC,TC,KO</Languages>
+  <SupportManuals>
+    <SupportManual>
+      <ManualType>useg</ManualType>
+      <FileName>manual.pdf</FileName>
+    </SupportManual>
+  </SupportManuals>
+</ManualInfo>
